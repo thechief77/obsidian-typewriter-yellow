@@ -82,13 +82,13 @@ body {
   --base-h: 0;
   --base-s: 0%;
   --base-d: 15%; /* base lightness for dark mode. 0 is black */
-  --base-l: 96%; /* base lightness for light mode. 100 is white */
+  --base-l: 92%; /* base lightness for light mode. 100 is white */
 
   /* rgb: 81, 157, 92 */
-  --theme-accent-h: 129;
-  --theme-accent-s: 31.9%;
+  --theme-accent-h: 50;
+  --theme-accent-s: 57.4%;
   --theme-accent-l: 46.7%;
-  --theme-accent-d: 46.7%;
+  --theme-accent-d: 45.1%;
 
   /* WIP - working with relative HSL values
   --theme-accent-h: calc(var(--accent-h) - 125);
@@ -171,13 +171,13 @@ body {
     var(--theme-accent-s),
     calc(var(--theme-accent-l) - 10%)
   );
-  --text-normal: hsl(var(--base-h), var(--base-s), var(--base-d));
+  --text-normal: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 20%));
   --text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 20%));
   --text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
 
-  --text-highlight-bg: hsla(53, 100%, 50%, 0.5);
+  --text-highlight-bg: hsl(53, 80%, 42%);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --text-selection: rgba(204, 230, 255, 0.99);
+  --text-selection: rgba(249, 255, 81, 0.99);
   --text-on-accent: #f2f2f2;
 
   --interactive-normal: #f2f3f5;
@@ -192,8 +192,8 @@ body {
     var(--theme-accent-s),
     calc(var(--theme-accent-l) - 0%)
   );
-  --interactive-accent-rgb: 123, 108, 217;
-  --interactive-success: #197300;
+  --interactive-accent-rgb: 245, 173, 92;
+  --interactive-success: #782400;
 
   --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
   --scrollbar-bg: rgba(0, 0, 0, 0.05);
@@ -231,7 +231,7 @@ body {
   --background-modifier-form-field: rgba(0, 0, 0, 0.3);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-  --background-modifier-success: #197300;
+  --background-modifier-success: #734700;
   --background-modifier-error: #3d0000;
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
@@ -256,12 +256,12 @@ body {
   --text-normal: rgb(197, 184, 161);
   --text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 45%));
   --text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
-  --text-error: #800000;
-  --text-error-hover: #990000;
+  --text-error: #ad1c1c;
+  --text-error-hover: #bc1212;
 
   --text-highlight-bg: rgba(255, 177, 80, 0.3);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --text-selection: rgba(23, 48, 77, 0.99);
+  --text-selection: rgba(77, 59, 23, 0.99);
   --text-on-accent: #dcddde;
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -276,7 +276,7 @@ body {
     calc(var(--theme-accent-l) - 0%)
   );
   --interactive-accent-rgb: 72, 54, 153;
-  --interactive-success: #197300;
+  --interactive-success: #c07b0b;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
