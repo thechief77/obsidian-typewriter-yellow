@@ -1,7 +1,6 @@
 # Obsidian Typewriter
 
-Typewriter is an [Obsidian](https://www.obsidian.md) October-winning theme designed for a focused writing experience.
-
+Typewriter Yellow is yellow version of the theme Typewriter which is an October-winning theme designed for a focused writing experience on [Obsidian](https://www.obsidian.md) 
 ![cover](cover.jpg)
 
 ## Features
@@ -19,48 +18,7 @@ Typewriter is an [Obsidian](https://www.obsidian.md) October-winning theme desig
 - Compatibility with Obsidian Hub
 - Highlight on the active line for focus
   - Currently unavailable in v2.0.0 (Obsidian version 0.16.0 onwards)
-
-<!--
-- Multicolored highlights support (achieved through the use of inline color classes)
-  - To use the multicolored highlights, use `<text class=orange>This is some orange text</text>`
-  - See cover image for example (green highlight on "enabled by default")
-  - *Current colors supported: green (light and dark mode), orange (light mode)*
-  - available only in Reading Mode
-- Clean preview without link colors or tags (achieved through YAML header `cssclass: nolink`)
-  - available only in Reading Mode
--->
-
-## Recommended Plugins
-
-- [Typewriter Scroll by @death_au](https://github.com/deathau/cm-typewriter-scroll-obsidian) for the full typewriter experience
-  - This plugin comes also with a focus mode, which dims every line except the active one
-- [Click Clack by @Acylation](https://github.com/Acylation/obsidian-click-clack) (still in beta) for typewriter sounds
-- [Style Settings by @mgmeyers](https://github.com/mgmeyers/obsidian-style-settings) for easy customization
-
-## Plugin Compatibility
-
-*This list is non-exhaustive; other plugins I haven't tested yet may work. The plugins on this list are plugins I've tested or added specific support for.*
-
-- [Calendar by @liamcain](https://github.com/liamcain/obsidian-calendar-plugin)
-- [Kanban by @mgmeyers](https://github.com/mgmeyers/obsidian-kanban)
-- [Sliding Panes (Andy's Mode) by @death_au](https://github.com/deathau/sliding-panes-obsidian)
-- [Tag Wrangler by @pjeby](https://github.com/pjeby/tag-wrangler)
-- [Typewriter Scroll by @death_au](https://github.com/deathau/cm-typewriter-scroll-obsidian)
-- [Better Word Count by @lukeleppan](https://github.com/lukeleppan/better-word-count)
-- [Day Planner by @lynchjames](https://github.com/lynchjames/obsidian-day-planner)
-- [Workbench by @ryanjamurphy](https://github.com/ryanjamurphy/workbench-obsidian)
-- [Citations by @hans](https://github.com/hans/obsidian-citation-plugin)
-- [Journey by @akaalias](https://github.com/akaalias/obsidian-journey-plugin)
-- [Banners by @noatpad](https://github.com/noatpad/obsidian-banners)
-- [Dataview by @blacksmithgu](https://github.com/blacksmithgu/obsidian-dataview)
-- [Style Settings by @mgmeyers](https://github.com/mgmeyers/obsidian-style-settings)
-- [Obsidian TODO by @larslockefeer](https://github.com/larslockefeer/obsidian-plugin-todo)
-
-## Development
-
-This theme is currently under development. [Issues](https://github.com/crashmoney/obsidian-typewriter/issues) and [pull requests](https://github.com/crashmoney/obsidian-typewrtier/pulls) are welcome.
-
-Please see [Releases](https://github.com/crashmoney/obsidian-typewriter/releases) for changes between updates.
+-It's yellow. Yeah. Yellow, not green (pretty big stuff huh?)
 
 ## Installation
 
@@ -94,6 +52,7 @@ For Obsidian version 0.15.9 and below:
 
 Inspiration and/or some code were taken from the following:
 
+- [Main code by @crashmoney](https://github.com/crashmoney/obsidian-typewriter)
 - [Minimal by @kepano](https://github.com/kepano/obsidian-minimal)
 - [Yin and Yang by @chetachiezikeuzor](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme)
 - [Deep Work by @nikbrunner](https://github.com/nikbrunner/obsidian-deep-work-theme)
